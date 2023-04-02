@@ -1,0 +1,89 @@
+.navbar{
+    background-color: #141264;
+    width: 100%px;
+}
+.navbar-bottom{
+    position:absolute;
+    width: 100%;
+    height: 70px;
+    top: 675px;
+    background-color: #141264;
+}
+
+.navbar-brand{
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+
+}
+
+#search-form {
+    display: flex;
+    justify-content: center;
+}
+  
+  #search-form input[type="text"] {
+    position: absolute;
+    width: 441px;
+    height: 56px;
+    left: 200px;
+    top: 5px;
+    background-color: #ffffff;
+}
+.card-title{
+    margin-top: 30px;
+    margin-left: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 49px;
+    position: absolute;
+}
+.global-container{
+    justify-content: center;
+    padding-top: 100px;
+    color: black;
+}
+input[type="text"],
+input[type="number"],
+input[type="date"]{
+  background: rgba(217,217,217,1);
+    color: black;
+    border: none ;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    width: 95%;
+    height: 85px;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 35px;
+    border: 4px #141264;
+
+}
+.from-regis{
+    text-align: center;
+
+}
+.btn {
+    background: #141264 ;
+    color: rgb(255, 255, 255) ;   
+    /* font-size: 25px; */
+    border-radius:20px ;
+    border: none;
+    float: right;
+}
+
+.btn2 {
+    background: #910b0b ;
+    color: rgb(255, 255, 255) ;   
+    /* font-size: 25px; */
+    border-radius:20px ;
+    border: none;
+    float: right;
+    right: 300;
+}
