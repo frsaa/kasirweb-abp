@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<body>
+
+    <div class="cart-section">
+        <div class="cart-table-wrapper" data-aos="fade-up" data-aos-delay="0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="table_desc">
+                            <div class="table_page table-responsive">
+                                <table>
+
+                                    <thead>
+                                        <tr>
+                                            <th class="product_remove">Delete</th>
+                                            <th class="product_name">Product</th>
+                                            <th class="product-price">Price</th>
+                                            <th class="product_quantity">Quantity</th>
+                                            <th class="product_total">Total</th>
+                                        </tr>
+                                    </thead> 
+                                    <tbody>
+
+                                        <tr>
+                                            <td class="product_remove"><a href="#"><i class="fa fa-trash-o"></i></a>
+                                            </td>
+                                            <td class="product_thumb"></td>
+                                            <td class="product_name"></td>
+                                            <td class="product-price">$65</td>
+                                            <td class="product_quantity"><label>Quantity</label> <input min="1"
+                                                    max="100" value="1" type="number"></td>
+                                            <td class="product_total">$13</td>
+                                        </tr> <!--1-->
+
+                                        <tr>
+                                            <td class="product_remove"><a href="#"><i class="fa fa-trash-o"></i></a>
+                                            </td>
+                                            <td class="product_thumb"></td>
+                                            <td class="product_name"></td>
+                                            <td class="product-price">$90</td>
+                                            <td class="product_quantity"><label>Quantity</label> <input min="1"
+                                                    max="100" value="1" type="number"></td>
+                                            <td class="product_total">$18</td>
+                                        </tr> <!--2-->
+
+                                        <tr>
+                                            <td class="product_remove"><a href="#"><i class="fa fa-trash-o"></i></a>
+                                            </td>
+                                            <td class="product_thumb"><a></td>
+                                            <td class="product_name"><a></td>
+                                            <td class="product-price">$80</td>
+                                            <td class="product_quantity"><label>Quantity</label> <input min="1"
+                                                    max="100" value="1" type="number"></td>
+                                            <td class="product_total">20</td>
+                                        </tr> <!--3-->
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="cart_submit">
+                                <button class="btn btn-md btn-golden" type="submit">update</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Coupon?
+        <div class="coupon_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="coupon_code left" data-aos="fade-up" data-aos-delay="200">
+                            <h3>Coupon</h3>
+                            <div class="coupon_inner">
+                                <p>Enter your coupon code if you have one.</p>
+                                <input class="mb-2" placeholder="Coupon code" type="text">
+                                <button type="submit" class="btn btn-md btn-golden">Apply coupon</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="coupon_code right" data-aos="fade-up" data-aos-delay="400">
+                            <h3>Cart Totals</h3>
+                            <div class="coupon_inner">
+                                <div class="cart_subtotal">
+                                    <p>Subtotal</p>
+                                    <p class="cart_amount">$215.00</p>
+                                </div>
+                                <div class="cart_subtotal ">
+                                    <p>Shipping</p>
+                                    <p class="cart_amount"><span>Flat Rate:</span> $255.00</p>
+                                </div>
+                                <a href="#">Calculate shipping</a>
+
+                                <div class="cart_subtotal">
+                                    <p>Total</p>
+                                    <p class="cart_amount">$215.00</p>
+                                </div>
+                                <div class="checkout_btn">
+                                    <a href="#" class="btn btn-md btn-golden">Proceed to Checkout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div> <!-- ...:::: End Cart Section:::... -->
+
+</body>
+</html>
